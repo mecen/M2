@@ -9,5 +9,7 @@ The objective is to have a readme file which presents all available functions of
 We will have something like that : 
 
 function1(): .................
+
 function2(): .................
+
 etc.
