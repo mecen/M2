@@ -1,0 +1,26 @@
+Package: mecen
+Title: Mecen Package
+Version: 0.0.0.9000
+Authors@R: person("Thomas", "Maurice", email = "thomas.maurice@etu.univ-tours.fr", role = c("aut", "cre"))
+Description: This the mecen collaborative package. Here all students can add or edit functions.
+Depends: R (>= 3.5.0)
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Imports: 
+    data.table,
+    magrittr,
+    randomForest,
+    e1071,
+    stats,
+    corrplot,
+    doParallel,
+    dplyr,
+    FactoMineR,
+    factoextra,
+    ggplot2,
+    lubridate,
+    ROCR,
+    stargazer,
+    xtable
