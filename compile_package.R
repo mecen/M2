@@ -1,15 +1,13 @@
-## to compile the package : change the working directory to the github directory of the BI/adikteev package.
-setwd("~/Documents/Github/BI/adikteev")
+## to compile the package : change the working directory to the github directory of the M2/mecen package.
+setwd("~/Github/M2/mecen") #modify your path access to the folder of the package 
 library(devtools)
 library(roxygen2)
 document()
 
 
 ## github pull 
-setwd("~/Desktop")
+setwd("~/")
 library(devtools)
-auth_token = 'de0f5822e09f7678d3f38f4e47a75bc7c62fe95c'
-install_github(repo = "Adikteev/BI", subdir= "adikteev", auth_token = auth_token)
-rm(auth_token)
+install_github(repo = "mecen/M2", subdir= "mecen")
 .rs.restartR()
-library(adikteev)
+library(mecen)
