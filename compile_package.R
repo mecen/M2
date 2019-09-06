@@ -11,3 +11,6 @@ library(devtools)
 install_github(repo = "mecen/M2", subdir= "mecen")
 .rs.restartR()
 library(mecen)
+
+
+i=1
